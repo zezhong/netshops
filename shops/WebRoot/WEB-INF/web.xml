@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ 
+ 
+ 
+ <!--  <filter>
+  <filter-name>filterTest</filter-name>
+  <filter-class>filter.filterTest</filter-class>
+ </filter>
+ <filter-mapping>
+  <filter-name>filterTest</filter-name>
+  <url-pattern>/adminlogin.jsp</url-pattern>
+ </filter-mapping>
+ -->
+ 
+ 
+ 
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductSer</servlet-name>
+    <servlet-class>ser.ProductSer</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>ProductSer</servlet-name>
+    <url-pattern>/ProductSer</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ 
+ 
+ 
+ 
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>UserSer</servlet-name>
+  <servlet-class>ser.UserSer</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminServlet</servlet-name>
+  <servlet-class>ser.adminServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminSelectAllUser</servlet-name>
+  <servlet-class>ser.adminSelectAllUser</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminSelectProduct</servlet-name>
+  <servlet-class>ser.adminSelectProduct</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminDeleteUser</servlet-name>
+  <servlet-class>ser.adminDeleteUser</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminUpdateProduct</servlet-name>
+  <servlet-class>ser.adminUpdateProduct</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminDeleteProduct</servlet-name>
+  <servlet-class>ser.adminDeleteProduct</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminUpdateAlterProduct</servlet-name>
+  <servlet-class>ser.adminUpdateAlterProduct</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminSelectOrders</servlet-name>
+  <servlet-class>ser.adminSelectOrders</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminInsertOrders</servlet-name>
+  <servlet-class>ser.adminInsertOrders</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminDeleteOrders</servlet-name>
+  <servlet-class>ser.adminDeleteOrders</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminUpdateOrders</servlet-name>
+  <servlet-class>ser.adminUpdateOrders</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectMessage</servlet-name>
+    <servlet-class>ser.selectMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insertMessage</servlet-name>
+    <servlet-class>ser.insertMessage</servlet-class>
+  </servlet>
+
+
+ <servlet-mapping>
+  <servlet-name>UserSer</servlet-name>
+  <url-pattern>/UserSer</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminServlet</servlet-name>
+  <url-pattern>/adminServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminSelectAllUser</servlet-name>
+  <url-pattern>/adminSelectAllUser</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminSelectProduct</servlet-name>
+  <url-pattern>/adminSelectProduct</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminDeleteUser</servlet-name>
+  <url-pattern>/adminDeleteUser</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminUpdateProduct</servlet-name>
+  <url-pattern>/adminUpdateProduct</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminDeleteProduct</servlet-name>
+  <url-pattern>/adminDeleteProduct</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminUpdateAlterProduct</servlet-name>
+  <url-pattern>/adminUpdateAlterProduct</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminSelectOrders</servlet-name>
+  <url-pattern>/adminSelectOrders</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminInsertOrders</servlet-name>
+  <url-pattern>/adminInsertOrders</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminDeleteOrders</servlet-name>
+  <url-pattern>/adminDeleteOrders</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminUpdateOrders</servlet-name>
+  <url-pattern>/adminUpdateOrders</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectMessage</servlet-name>
+    <url-pattern>/selectMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insertMessage</servlet-name>
+    <url-pattern>/insertMessage</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>

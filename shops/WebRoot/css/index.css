@@ -1,0 +1,12 @@
+/* CSS Document */
+body,ul,li,h3{margin:0px;padding:0px;}
+#header{width:1024px;margin:0 auto;height:142px;background: url(../images/cy_02_02.jpg);}
+#logo{float:left;}
+#contact{float:right;margin-top:51px;}
+#header nav{width:1024px;height:35px;float:left;background:url(../images/cy_08.jpg);line-height:35px;}
+#header nav ul li{display:block;float:left;margin-left:15px;}
+#header nav ul li a{color:#FFF;font-size:16px;font-weight:bold;text-decoration:none;}
+#header nav .fg{background:url(../images/cy_10.jpg) no-repeat;height:35px;}
+#content{width:1024px;margin:0 auto;margin-top:10px;}
+#content #xwzx{width:312px;height:259px;border:1px #CCCCCC solid;}
+.title{height:28px;background:url(../images/cy_23.jpg);padding-left:35px;color:#fff;font-size:15px;line-height:28px;}

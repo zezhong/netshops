@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>简单买,商城</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <style type="text/css">
+    #header {
+            height: 30px;
+            color: #999;
+            border-bottom: 1px solid #ddd;
+            background-color: #e3e4e5;
+            
+            }
+    #top{
+        width: 710px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    #header li{
+        width: 100px;
+        float: left;
+        list-style: none;
+        text-align: center;
+    }
+    #header a{
+        color: #6C6C6C;
+        text-decoration: none;
+        display: block;
+        font-size: 12px;
+        line-height: 30px;
+        font-family: tahoma,arial,'\5fae\8f6f\96c5\9ed1','Hiragino Sans GB',sans-serif!important;
+    }
+    #header a:visited{
+
+    }
+    #header a:active{
+
+    }
+    #header a:hover{
+        color: #F40;
+    }
+    #second{
+        height: 40px;
+        margin:30px;
+    }
+    #search{
+        width: 700px;
+        margin: 0 auto;
+        background: #F40;
+    }
+    .input{
+        border:5px solid #F40;
+        width: 510px;
+        height: 40px;
+    }
+    .btnn{
+        color: white;
+        font-size: 16px;
+        background: #F40;
+        width: 173px;
+        height: 50px;
+    }
+    #third{
+        border-top:1px solid #F40;
+        height: 600px;
+    }
+    #content{
+        margin: 5px auto;
+        width: 1024px;
+        height: 800px;
+    }
+    .goods{
+        width: 310px;
+        height: 350px;
+        border:2px solid #F40;
+        margin: 5px;
+        float: left;
+    }
+    .images{
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
+    }
+    </style>
+</head>
+
+<body>
+	
+	
+	
+    <div id="container">
+        <div id="header">
+            <div id="top">
+                <ul>
+                    <li><a href="index.html">主页</a></li>
+                    <li><a class="top" href="entry.jsp" style="color:#F40 ">你好，请登录</a></li>
+                    <li><a class="top" href="login.jsp">免费注册</a></li>
+                    <li><a class="top" href="entry.jsp">我的信息</a></li>
+                    <li><a class="top" href="entry.jsp">我的订单</a></li>
+                    <li><a class="top" href="adminlogin.jsp">我是卖家</a></li>
+                    <li><a class="top" href="/shops/selectMessage">查看留言</a></li>  
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+             <div id="second">
+                <div id="search">
+                     <form action="/shops/ProductSer" method="post">
+                        <input type="text" name="productName" class="input">
+                        <input type="submit" name="submit" value="搜 索" class="btnn">
+                        <input type="hidden" name="status" value="search1"/>
+                    </form>
+                </div>
+            </div>
+            <div id="third">
+                    <div id="content">
+                            <div class="goods">
+                                <a href="entry.jsp">
+                                    <img src="images/cup.png" class="images">
+                                    <p>时尚水杯</p>
+                                </a>
+                            </div>
+                            <div class="goods">
+                            <a href="entry.jsp">
+                                <img src="images/teas.png" class="images">
+                                <p>养生茶叶，信阳毛尖</p>
+                            </a>
+                            </div>
+                            <div class="goods">
+                            <a href="entry.jsp">
+                                <img src="images/glasses.png" class="images">
+                                <p>装饰眼镜</p>
+                            </a>
+                            </div>
+                            <div class="goods">
+                                <a href="entry.jsp">
+                                    <img src="images/books.png" class="images">
+                                    <p>哲理人生，感悟生活</p>
+                                </a>
+                            </div>
+                            <div class="goods">
+                                <a href="entry.jsp">
+                                    <img src="images/computer.png" class="images">
+                                    <p>性价比高，游戏专享</p>
+                                </a>
+                            </div>
+                            <div class="goods">
+                                <a href="entry.jsp">
+                                    <img src="images/bag.png" class="images">
+                                    <p>可爱包包</p>
+                                </a>
+                            </div>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
